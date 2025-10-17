@@ -51,14 +51,19 @@
   }
 
   var formats = [
+    // 24-bit rgb icon
     { type: 'is32', size: 16 },
     { type: 'il32', size: 32 },
     { type: 'ih32', size: 48 },
     { type: 'it32', size: 128 },
+
+    // 8-bit mask
     { type: 's8mk', size: 16 },
     { type: 'l8mk', size: 32 },
     { type: 'h8mk', size: 48 },
     { type: 't8mk', size: 128 },
+
+    // Retina
     { type: 'ic04', size: 16 },
     { type: 'ic05', size: 32 },
     { type: 'ic07', size: 128 },
