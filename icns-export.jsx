@@ -63,17 +63,23 @@
     { type: 'h8mk', size: 48 },
     { type: 't8mk', size: 128 },
 
-    // Retina
+    // Retina @1x
     { type: 'ic04', size: 16 },
+    { type: 'icsb', size: 18 },
+    { type: 'sb24', size: 24 },
     { type: 'ic05', size: 32 },
     { type: 'ic07', size: 128 },
     { type: 'ic08', size: 256 },
     { type: 'ic09', size: 512 },
-    { type: 'ic10', size: 1024 },
+
+    // Retina @2x
     { type: 'ic11', size: 32 },
+    { type: 'icsB', size: 36 },
+    { type: 'SB24', size: 48 },
     { type: 'ic12', size: 64 },
     { type: 'ic13', size: 256 },
-    { type: 'ic14', size: 512 }
+    { type: 'ic14', size: 512 },
+    { type: 'ic10', size: 1024 },
   ]
 
   var totalLength = 0;
