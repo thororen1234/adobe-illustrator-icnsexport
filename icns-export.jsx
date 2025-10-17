@@ -51,10 +51,16 @@
   }
 
   var formats = [
-    // Quick fix for https://github.com/choffmeister/adobe-illustrator-icnsexport/issues/7
-    // { type: 'icp4', size: 16 },
-    // { type: 'icp5', size: 32 },
-    // { type: 'icp6', size: 64 },
+    { type: 'is32', size: 16 },
+    { type: 'il32', size: 32 },
+    { type: 'ih32', size: 48 },
+    { type: 'it32', size: 128 },
+    { type: 's8mk', size: 16 },
+    { type: 'l8mk', size: 32 },
+    { type: 'h8mk', size: 48 },
+    { type: 't8mk', size: 128 },
+    { type: 'ic04', size: 16 },
+    { type: 'ic05', size: 32 },
     { type: 'ic07', size: 128 },
     { type: 'ic08', size: 256 },
     { type: 'ic09', size: 512 },
